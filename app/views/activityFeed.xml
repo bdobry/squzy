@@ -1,5 +1,7 @@
 <Alloy>
-	<Window id="third" class="landing">
-		<Label>Activityfeed</Label>
-	</Window>
+		<NavigationWindow id="win1" platform="ios">
+	        <Window id="win2" title="Red Window" backgroundColor="red">
+	            <Button id="button">Open Blue Window</Button>
+	        </Window>
+	    </NavigationWindow>
 </Alloy>
