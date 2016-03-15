@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="third" class="landing">
+		<Label>Activityfeed</Label>
+	</Window>
+</Alloy>

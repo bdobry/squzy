@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="first" class="landing">
+		<Label>Nice welcome text</Label>
+	</Window>
+</Alloy>
