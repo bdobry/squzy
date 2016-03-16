@@ -1,7 +1,7 @@
 <Alloy>
 		<NavigationWindow id="win1" platform="ios">
 	        <Window id="win2" title="Red Window" backgroundColor="red">
-	            <Button id="button">Open Blue Window</Button>
+	            <!-- $.win2.setRightNavButton(view) -->
 	        </Window>
 	    </NavigationWindow>
 </Alloy>

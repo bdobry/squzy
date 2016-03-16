@@ -1,0 +1,8 @@
+<Alloy>
+	<NavigationWindow id="win1" platform="ios">
+        <Window id="win2" title="Red Window" backgroundColor="red">
+            <RightNavButton><Button> + </Button></RightNavButton>
+        	<View id="view"></View>>
+        </Window>
+    </NavigationWindow>
+</Alloy>
