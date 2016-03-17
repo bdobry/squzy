@@ -69,10 +69,7 @@
 }
 
 ".white": {
-	color: "white",
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	top: "49%"
+	color: "white"
 }
 // "#main": {
 	// barColor: {
