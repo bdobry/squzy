@@ -16,16 +16,10 @@
 	color: "#000"
 }
 
-".logo": {
-	top:"15%",
-	width: "45%",
-	color: "#000"
-}
-
 "Label": {
 	top: "35%",
 	font: {
-		fontSize: 14,
+		fontSize: 16,
 		color: "white",
 	}
 }
