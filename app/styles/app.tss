@@ -1,3 +1,30 @@
+".landing": {
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '0%', y: '0%' }, 
+        endPoint: { x: '100%', y: '100%' },         
+        colors: [ 
+            { color: '#512445', offset: 0.0 }, 
+            { color: '#0a2333', offset: 0.75 } 
+        ]
+    },
+	layout: "vertical",
+}
+
+"#logo": {
+	top:"35%",
+	width: "45%",
+	color: "#000"
+}
+
+"Label": {
+	top: "35%",
+	font: {
+		fontSize: 16,
+		color: "white",
+	}
+}
+
 ".menuWindow": {
 	top:0,
     left:0,
@@ -5,13 +32,27 @@
 }
 
 "#menuTable": {
+	backgroundColor:'#0a2333',
+	font: {		
+		fontSize: 16,
+		color: "white"
+	}
 }
 
 "#main": {
-    backgroundColor:'#28292c',
-    barColor:'#28292c'
+    backgroundColor:'#0a2333',
+    barColor:'#0a2333'
 }
 
-"#LALA": {
-	top: 65
-}
+// "#main": {
+	// barColor: {
+        // type: 'linear',
+        // startPoint: { x: '0%', y: '0%' }, 
+        // endPoint: { x: '100%', y: '100%' },         
+        // colors: [ 
+            // { color: '#512445', offset: 0.0 }, 
+            // { color: '#0a2333', offset: 0.75 } 
+        // ]
+    // },
+	// layout: "vertical",
+// }

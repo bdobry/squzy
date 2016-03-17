@@ -5,9 +5,9 @@ win1.addEventListener('click', function(e){
     // alert('You swiped to the '+e.direction);
     win2.open();
     win1.close();
-}); 
- 
-   
+});
+
+
 // win1.addEventListener('swipe', function(e){
     // // alert('You swiped to the '+e.direction);
 //     
