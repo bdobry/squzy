@@ -5,6 +5,12 @@ var navWindow = Alloy.createController('navbar').getView();
 var newUser = "";
 var newpassword = "";
 
+function goActivity(){
+	navWindow.open();
+	activityFeed.open();
+}
+
+
 function SetLogin()
 {
 	newUser = $.username.value;

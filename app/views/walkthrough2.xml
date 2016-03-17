@@ -1,16 +1,39 @@
 <Alloy>
 	<Window id="loginWin" class="landing">
 		<ScrollView>
-			<View id="heroImg">				
-				<!-- <ImageView id="imageLogin"></ImageView> -->
-				<Label>image</Label>
+			<View>
+				<View id="heroImg">				
+					<ImageView class="logo" image="img/logo.png" />
+				</View>
+				<View id="logins">
+					<View layout="vertical" class="insideLogins">
+						<Button id="Btn_login" onClick="goActivity">Register</Button>
+						<Button id="Btn_login" onClick="goActivity">Login</Button>
+					</View>
+					<View><Button id="noAccount" onClick="goActivity">...or proceed without an account</Button></View>
+				</View>	
 			</View>
-			<View id="logins" layout="vertical">
-				<TextField id="username"></TextField>
-				<TextField id="password"></TextField>
-				<Button id="Btn_login" onClick="CheckLogin">Login</Button>
-				<Button id="Btn_newlogin" onClick="SetLogin">Login</Button>
-			</View>	
 		</ScrollView>
 	</Window>
 </Alloy>
+
+<!-- 
+<Alloy>
+	<Window id="loginWin" class="landing">
+		<ScrollView>
+			<View>
+				<View id="heroImg">				
+					<ImageView class="logo" image="img/logo.png" />
+				</View>
+				<View id="logins">
+					<View layout="vertical" class="insideLogins">
+						<TextField id="username"></TextField>
+						<TextField id="password"></TextField>
+						<Button id="Btn_login" onClick="CheckLogin">Login</Button>
+						<!-- <Button>...or proceed without an account</Button> -->
+					<!-- </View>
+				</View>	
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy> -->

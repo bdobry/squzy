@@ -1,24 +1,42 @@
 "#username":
 {
+	width: "50%",
+	bottom: 10,
+	height: 25,
 	hintText : "Username",
 	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	
+	font: {
+		fontSize: 13
+	}
 }
 
 "#password":
 {
+	width: "50%",	
+	bottom: 10,
 	hintText: "Password",
 	passwordMask: true,
-	
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+"#noAccount": {
+	width: "100%",
+	bottom: 15,
+	height: 35,
+	color: "#0a2333",
+	font: {
+		fontSize: 13
+	}
 }
 
 "#Btn_login":
 {
-	backgroundColor: "blue",
-	width:"30%",
-	font:{
-		color:"White",
-	}
+	backgroundColor: "#0a2333",
+	width:"45%",
+	height: 25,
+	bottom: 15,
+	borderRadius: 10,
+	color: "white"
 }
 
 "#heroImg": {
@@ -26,5 +44,10 @@
 }
 
 "#logins": {
-	top: 150
+	top: "60%",
+	backgroundColor: "white"
+}
+
+".insideLogins": {
+	top: 30
 }
