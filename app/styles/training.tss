@@ -1,4 +1,27 @@
+"#wrap": {
+	width: "50%",
+}
 
-".container" : {
-  
+"#timer": {
+	top: 0,
+	left: 0,
+	width: "100%",
+	height: 20,
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '0%', y: '0%' }, 
+        endPoint: { x: '100%', y: '100%' },         
+        colors: [ 
+            { color: '#512445', offset: 0.0 }, 
+            { color: '#0a2333', offset: 0.75 } 
+        ]
+    }
+}
+
+"#timerBg": {
+	top: 0,
+	left: 0,
+	width: "100%",
+	height: 20,
+	backgroundColor: "#512445"
 }

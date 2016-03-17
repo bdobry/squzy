@@ -1,9 +1,20 @@
 <Alloy>
 	<NavigationWindow id="mainNav" platform="ios">
-        <Window id="main" title="Training Screen">
+        <Window onTouchstart="animWidth" id="main" title="Training Screen">
             <LeftNavButton>
             	<Button id="menuButton" onClick="goActivity"> back </Button>
             </LeftNavButton>
+	        <ScrollableView>
+	        	<View layout="vertical">
+		        	<View id="wrap">
+		        		<View id="timerBg"></View>
+		        		<View id="timer"></View>
+		        	</View>
+		        	<View>
+		        		<Button onFocus="animWidth">Aaaaa</Button>
+		        	</View>
+	        	</View>
+	        </ScrollableView>
         </Window>
     </NavigationWindow>
 </Alloy>
