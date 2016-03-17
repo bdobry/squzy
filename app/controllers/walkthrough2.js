@@ -2,8 +2,14 @@ var login = $.loginWin;
 var activityFeed = Alloy.createController('activityFeed').getView();
 var navWindow = Alloy.createController('navbar').getView();
 
-var newUser = "";
 var newpassword = "";
+var newUser = "";
+
+function goActivity(){
+	navWindow.open();
+	activityFeed.open();
+}
+
 
 function SetLogin()
 {

@@ -1,11 +1,30 @@
 <Alloy>
 	<Window id="first" class="landing">
-		<ScrollView layout="vertical">
+		<ScrollView>
+			<View id="pageIndicator" layout="horizontal">
+				<View id="uno" class="indicator"></View>
+				<View id="dos" class="indicator"></View>
+				<View id="tres" class="indicator"></View>
+				<View id="quatro" class="indicator"></View>
+			</View>
+			<View  class="right"><Button class="right">skip</Button></View>
 			<View id="walkthru">				
-				<View id="one"><Label class="white">Nice welcome text</Label></View>
-				<View id="two"><Label class="white">Two</Label></View>
-				<View id="three"><Label class="white">Three</Label></View>
-				<View id="four"><Label class="white">Four</Label></View>
+				<View id="one">
+					<Label class="white">Nice welcome text</Label>
+					<Label class="white subtitle">subtitle</Label>
+				</View>
+				<View id="two">
+					<Label class="white">Two</Label>
+					<Label class="white subtitle">subtitle</Label>
+				</View>
+				<View id="three">
+					<Label class="white">Three</Label>
+					<Label class="white subtitle">subtitle</Label>
+				</View>
+				<View id="four">
+					<Label class="white">Four</Label>
+					<Label class="white subtitle">subtitle</Label>
+				</View>
 			</View>			
 		</ScrollView>
 	</Window>

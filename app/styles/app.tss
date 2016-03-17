@@ -16,10 +16,16 @@
 	color: "#000"
 }
 
+".logo": {
+	top:"5%",
+	width: "45%",
+	color: "#000"
+}
+
 "Label": {
 	top: "35%",
 	font: {
-		fontSize: 16,
+		fontSize: 14,
 		color: "white",
 	}
 }
@@ -63,7 +69,10 @@
 }
 
 ".white": {
-	color: "white"
+	color: "white",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	top: "49%"
 }
 // "#main": {
 	// barColor: {
