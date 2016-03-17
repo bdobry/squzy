@@ -1,0 +1,22 @@
+"#username":
+{
+	hintText : "Username",
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	
+}
+
+"#password":
+{
+	hintText: "Password",
+	passwordMask: true,
+	
+}
+
+"#Btn_login":
+{
+	backgroundColor: "blue",
+	width:"30%",
+	font:{
+		color:"White",
+	}
+}

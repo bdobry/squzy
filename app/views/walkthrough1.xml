@@ -1,5 +1,12 @@
 <Alloy>
 	<Window id="first" class="landing">
-		<Label>Nice welcome text</Label>
+		<ScrollView layout="vertical">
+			<View id="walkthru">				
+				<View id="one"><Label class="white">Nice welcome text</Label></View>
+				<View id="two"><Label class="white">Two</Label></View>
+				<View id="three"><Label class="white">Three</Label></View>
+				<View id="four"><Label class="white">Four</Label></View>
+			</View>			
+		</ScrollView>
 	</Window>
 </Alloy>

@@ -1,22 +1,39 @@
-var win2 = $.second;
-var win3 = Alloy.createController('walkthrough3').getView();
- 
-win2.addEventListener('click', function(e){
-    // alert('You swiped to the '+e.direction);
-    win3.open(); 
-}); 
- 
-   
-// win1.addEventListener('swipe', function(e){
-    // // alert('You swiped to the '+e.direction);
-//     
-    // var anim1 = Ti.UI.createAnimation({
-        // left: "-100%",
-        // duration: 1000
-    // });
-    // var anim2 = Ti.UI.createAnimation({
-        // left: 0,
-        // duration: 1000
-    // });
-    // win2.open(anim2); 
-// });
+var login = $.loginWin;
+var activityFeed = Alloy.createController('activityFeed').getView();
+
+var newUser = "";
+var newpassword = "";
+
+function SetLogin()
+{
+	newUser = $.username.value;
+	newpassword = $.password.value;
+}
+
+function CheckLogin()
+{
+	var UsernameText = $.username.value;
+	var PassWordText = $.password.value;
+	var correctPassword = "1";
+	var correctUsername = "Test";
+	
+	if(
+		(
+			UsernameText.toLowerCase() == correctUsername.toLowerCase() && 
+			PassWordText.toLowerCase() == correctPassword.toLowerCase()
+		)
+		||
+		(
+			newUser != "" &&
+			UsernameText.toLowerCase() == newUser.toLowerCase() && 
+			PassWordText.toLowerCase() == newpassword.toLowerCase())
+		)
+	{
+		activityFeed.open();
+	}
+	else
+	{
+		$.label.text="login failed, please try again";
+		$.label.color = "red"; 
+	}
+}

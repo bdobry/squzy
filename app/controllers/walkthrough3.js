@@ -12,17 +12,10 @@ win3.addEventListener('click', function(e){
  
    
 win3.addEventListener('swipe', function(e){
-    
-    if(e.direction == left) {
+    if (e.direction == "left") {
+    	alert('You swiped to the '+e.direction);
+    } else if (e.direction == "right") {
     	alert('You swiped to the '+e.direction);
     }
     
-    // var anim1 = Ti.UI.createAnimation({
-        // left: "-100%",
-        // duration: 1000
-    // });
-    // var anim2 = Ti.UI.createAnimation({
-        // left: 0,
-        // duration: 1000
-    // }); 
 });

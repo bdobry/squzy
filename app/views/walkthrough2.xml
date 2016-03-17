@@ -1,5 +1,15 @@
 <Alloy>
-	<Window id="second" class="landing">
-		<Label>Second!</Label>
+	<Window id="loginWin" class="landing">
+		<ScrollView layout="vertical">
+			<View id="heroImg" layout="horizontal">				
+				<!-- <ImageView id="imageLogin"></ImageView> -->
+			</View>
+			<View layout="horizontal">
+				<TextField id="username"></TextField>
+				<TextField id="password"></TextField>
+				<Button id="Btn_login" onClick="CheckLogin">Login</Button>
+				<Button id="Btn_newlogin" onClick="SetLogin">Login</Button>
+			</View>			
+		</ScrollView>
 	</Window>
 </Alloy>

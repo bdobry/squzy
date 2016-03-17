@@ -44,6 +44,28 @@
     barColor:'#0a2333'
 }
 
+"#one": {
+	top:"25%",
+}
+
+"#two": {
+	top:"25%",
+	opacity: 0
+}
+
+"#three": {
+	top:"25%",
+    opacity: 0
+}
+
+"#four": {
+	top:"25%",
+    opacity: 0
+}
+
+".white": {
+	color: "white"
+}
 // "#main": {
 	// barColor: {
         // type: 'linear',
