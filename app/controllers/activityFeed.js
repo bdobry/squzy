@@ -24,6 +24,11 @@ menuButton.addEventListener('click', function(e){
     }
 });
 
+function goTraining(){
+	var training = Alloy.createController('training').getView();
+	training.open();
+}
+
 main.addEventListener('touchstart', function(e){
     // Get starting horizontal position
     e.source.axis = parseInt(e.x);
@@ -35,7 +40,7 @@ main.addEventListener('touchmove', function(e){
     // Detecting movement after a 20px shift
     if(coordinates > 20 || coordinates < -20){
         e.source.moving = true;
-        $.alertDialog.show();
+        alert('You swiped to the '+e.direction);
     }
     // Locks the window so it doesn't move further than allowed
     if(e.source.moving == true && coordinates <= 150 && coordinates >= 0){

@@ -1,20 +1,9 @@
-<!-- <Alloy>
-    <Window layout="vertical">
-        <LeftNavButton>
-            <Button onClick="closeWindow">pop</Button>
-        </LeftNavButton>
-        <RightNavButton>
-            <Button onClick="Alloy.Globals.openWindow">push</Button>
-        </RightNavButton>
-        <Label class="space">Click the left nav button above to pop this window off the navigation stack. Click the right one to push another window onto the stack.</Label>
-        <Label id="windowNumber" class="space"/>
-    </Window>
-</Alloy> -->
-
 <Alloy>
-		<NavigationWindow id="win1" platform="ios">
-	        <Window id="win2" title="Red Window" backgroundColor="red">
-	           	<Button onClick="goActivity">back</Button>
-	        </Window>
-	    </NavigationWindow>
+	<NavigationWindow id="mainNav" platform="ios">
+        <Window id="main" title="Training Screen">
+            <LeftNavButton>
+            	<Button id="menuButton" onClick="goActivity"> back </Button>
+            </LeftNavButton>
+        </Window>
+    </NavigationWindow>
 </Alloy>

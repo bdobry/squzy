@@ -5,7 +5,7 @@
             	<Button id="menuButton" toggle="false"> = </Button>
             </LeftNavButton>
             <RightNavButton>
-            	<Button> + </Button>
+            	<Button onClick="goTraining"> + </Button>
             </RightNavButton>
         </Window>
     </NavigationWindow>

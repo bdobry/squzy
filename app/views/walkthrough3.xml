@@ -1,5 +1,5 @@
 <Alloy>
 	<Window id="third" class="landing">
-		<Label>Dang!</Label>
+		<Label>Third!</Label>
 	</Window>
 </Alloy>

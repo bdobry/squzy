@@ -1,10 +1,9 @@
 <Alloy>            
 	<Window class="menuWindow">
 	    <TableView id="menuTable">
-            <TableViewRow title="Apple"/>
-            <TableViewRow title="Bananas"/>
-            <TableViewRow title="Carrots"/>
-            <TableViewRow title="Potatoes"/>           
+            <TableViewRow title="Training" onClick="goTraining" />
+            <TableViewRow title="Settings" />
+            <TableViewRow title="About" />           
         </TableView>
     </Window>
 </Alloy>

@@ -1,7 +1,7 @@
 var win1 = $.first;
 var win2 = Alloy.createController('walkthrough2').getView();
  
-win1.addEventListener('swipe', function(e){
+win1.addEventListener('click', function(e){
     // alert('You swiped to the '+e.direction);
     win2.open();
     win1.close();
