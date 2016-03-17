@@ -22,7 +22,7 @@
 "#noAccount": {
 	width: "100%",
 	bottom: 15,
-	height: 35,
+	height: 32,
 	color: "#0a2333",
 	font: {
 		fontSize: 13
@@ -32,8 +32,8 @@
 "#Btn_login":
 {
 	backgroundColor: "#0a2333",
-	width:"45%",
-	height: 25,
+	width:"55%",
+	height: 35,
 	bottom: 15,
 	borderRadius: 10,
 	color: "white"
