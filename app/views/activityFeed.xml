@@ -1,7 +1,12 @@
 <Alloy>
-		<NavigationWindow id="win1" platform="ios">
-	        <Window id="win2" title="Red Window" backgroundColor="red">
-	            <!-- $.win2.setRightNavButton(view) -->
-	        </Window>
-	    </NavigationWindow>
+	<NavigationWindow id="mainNav" platform="ios">
+        <Window id="main" title="Main Window">
+            <LeftNavButton>
+            	<Button id="menuButton" toggle="false"> = </Button>
+            </LeftNavButton>
+            <RightNavButton>
+            	<Button> + </Button>
+            </RightNavButton>
+        </Window>
+    </NavigationWindow>
 </Alloy>

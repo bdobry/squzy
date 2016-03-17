@@ -46,3 +46,28 @@ ACS.Users.login({
 
 })();
 
+
+// Alloy.Globals = {
+	// ctr: 0,
+	// openWindow: function(e) {
+		// Alloy.Globals.ctr++;
+		// training = Alloy.createController('training').getView();
+		// training.openWindow();
+	// }
+// };
+// 
+// Alloy.Globals.ctr = { key: 0 };
+// Alloy.Globals.openWindow = function(){
+	// Alloy.Globals.ctr++;
+// };
+
+// 
+// Alloy.Globals = {
+	// training: Alloy.createController('training').getView(),
+	// ctr: 0,
+	// openWindow: function(e) {
+		// Alloy.Globals.ctr++;
+		// Alloy.Globals.training.openWindow();
+	// }
+// };
+

@@ -1,8 +1,12 @@
 var win3 = $.third;
 var win4 = Alloy.createController('activityFeed').getView();
- 
+
+var navWindow = Alloy.createController('navbar').getView();
+
+
 win3.addEventListener('swipe', function(e){
     // alert('You swiped to the '+e.direction);
+    navWindow.open();
     win4.open();
 }); 
  

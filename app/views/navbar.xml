@@ -1,8 +1,10 @@
-<Alloy>
-	<NavigationWindow id="win1" platform="ios">
-        <Window id="win2" title="Red Window" backgroundColor="red">
-            <RightNavButton><Button> + </Button></RightNavButton>
-        	<View id="view"></View>>
-        </Window>
-    </NavigationWindow>
+<Alloy>            
+	<Window class="menuWindow">
+	    <TableView id="menuTable">
+            <TableViewRow title="Apple"/>
+            <TableViewRow title="Bananas"/>
+            <TableViewRow title="Carrots"/>
+            <TableViewRow title="Potatoes"/>           
+        </TableView>
+    </Window>
 </Alloy>
