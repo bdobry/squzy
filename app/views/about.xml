@@ -1,0 +1,9 @@
+<Alloy>
+	<NavigationWindow id="mainNav" platform="ios">
+        <Window id="main" title="About">
+            <LeftNavButton>
+            	<Button id="menuButton" onClick="goActivity"> back </Button>
+            </LeftNavButton>
+        </Window>
+    </NavigationWindow>
+</Alloy>

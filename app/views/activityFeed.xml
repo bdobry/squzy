@@ -7,7 +7,48 @@
             <RightNavButton>
             	<Button onClick="goTraining"> + </Button>
             </RightNavButton>
-            <Label>test</Label>
+            <ScrollView layout="vertical">
+
+				<View class="event" layout="horizontal">
+					<Label class="eventImg">img</Label>
+					<View class="eventData" layout="vertical">
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">eventtest</Label>
+					</View>
+				</View>
+				
+				<View class="event" layout="horizontal">
+					<Label class="eventImg">img</Label>
+					<View class="eventData" layout="vertical">
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">eventtest</Label>
+					</View>
+				</View>
+				
+				<View class="event" layout="horizontal">
+					<Label class="eventImg">img</Label>
+					<View class="eventData" layout="vertical">
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">eventtest</Label>
+					</View>
+				</View>
+				
+				<View class="event" layout="horizontal">
+					<Label class="eventImg">img</Label>
+					<View class="eventData" layout="vertical">
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">eventtest</Label>
+					</View>
+				</View>
+				
+				<View class="event" layout="horizontal">
+					<Label class="eventImg">img</Label>
+					<View class="eventData" layout="vertical">
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">eventtest</Label>
+					</View>
+				</View>	
+			</ScrollView>
         </Window>
     </NavigationWindow>
 </Alloy>

@@ -1,0 +1,39 @@
+".event": {
+  	height: 100,
+	width: Ti.UI.SIZE,
+	backgroundColor: "orange",
+	top: 10, right:10, bottom:0, left: 10  
+}
+
+".wrapper": {
+  	height: Ti.UI.SIZE,
+  	width: Ti.UI.SIZE
+}
+
+".eventImg": {
+	height: 100,
+	width: 100,
+	backgroundColor: "white",
+	top: 10, right:10, bottom:10, left: 10
+}
+
+".eventData": {
+	top:0,
+	height: 100,
+	width: "auto",
+	backgroundColor: "red"
+}
+
+".eventNick": {
+	top:0,
+	height: 30,
+	width: "auto",
+	backgroundColor: "yellow"
+}
+
+".eventResult": {
+	top:0,
+	height: 30,
+	width: "auto",
+	backgroundColor: "purple"
+}

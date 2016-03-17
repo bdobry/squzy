@@ -2,8 +2,8 @@
 	<Window class="menuWindow">
 	    <TableView id="menuTable">
             <TableViewRow title="Training" onClick="goTraining" />
-            <TableViewRow title="Settings" />
-            <TableViewRow title="About" />           
+            <TableViewRow title="Settings" onClick="goSettings" />
+            <TableViewRow title="About" onClick="goAbout" />           
         </TableView>
     </Window>
 </Alloy>

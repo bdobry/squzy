@@ -1,5 +1,6 @@
 var login = $.loginWin;
 var activityFeed = Alloy.createController('activityFeed').getView();
+var navWindow = Alloy.createController('navbar').getView();
 
 var newUser = "";
 var newpassword = "";
@@ -15,7 +16,7 @@ function CheckLogin()
 	var UsernameText = $.username.value;
 	var PassWordText = $.password.value;
 	var correctPassword = "1";
-	var correctUsername = "Test";
+	var correctUsername = "1";
 	
 	if(
 		(
@@ -29,6 +30,7 @@ function CheckLogin()
 			PassWordText.toLowerCase() == newpassword.toLowerCase())
 		)
 	{
+		navWindow.open();
 		activityFeed.open();
 	}
 	else

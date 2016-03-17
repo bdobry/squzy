@@ -20,3 +20,11 @@
 		color:"White",
 	}
 }
+
+"#heroImg": {
+	top: 50
+}
+
+"#logins": {
+	top: 150
+}
