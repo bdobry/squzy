@@ -1,17 +1,21 @@
 <Alloy>
 	<NavigationWindow id="mainNav" platform="ios">
-        <Window onTouchstart="animWidth" id="main" title="Training Screen">
+        <Window id="main" class="white" title="Training Screen">
             <LeftNavButton>
             	<Button id="menuButton" onClick="goActivity"> back </Button>
             </LeftNavButton>
-	        <ScrollableView>
-	        	<View layout="vertical">
+	        <ScrollableView layout="vertical">
+	        	<View >
+	        		<View id="countdownWrap">
+	        			<Label id="countdown"></Label>
+	        			<Label id="countdownBottom">squizes left</Label>
+	        		</View>
 		        	<View id="wrap">
 		        		<View id="timerBg"></View>
 		        		<View id="timer"></View>
 		        	</View>
 		        	<View>
-		        		<Button onFocus="animWidth">Aaaaa</Button>
+		        		<Button id="pusher">press and squeeze</Button>
 		        	</View>
 	        	</View>
 	        </ScrollableView>

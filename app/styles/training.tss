@@ -1,19 +1,20 @@
 "#wrap": {
 	width: "50%",
+	top:"65%"
 }
 
 "#timer": {
 	top: 0,
-	left: 0,
+	left: "1%",
 	width: "100%",
-	height: 20,
+	height: 40,
 	backgroundGradient: {
         type: 'linear',
         startPoint: { x: '0%', y: '0%' }, 
         endPoint: { x: '100%', y: '100%' },         
         colors: [ 
             { color: '#512445', offset: 0.0 }, 
-            { color: '#0a2333', offset: 0.75 } 
+            { color: '#0a2333', offset: 0.15 } 
         ]
     }
 }
@@ -22,6 +23,38 @@
 	top: 0,
 	left: 0,
 	width: "100%",
-	height: 20,
+	height: 40,
 	backgroundColor: "#512445"
+}
+
+"#pusher": {
+	bottom: 0,
+	width: "100%",
+	height: "15%",
+	backgroundColor: "white",
+}
+
+"#countdown": {
+	top: 43,
+	color: "white",
+	font: {
+		fontSize: 70
+	}
+}
+
+"#countdownBottom": {
+	top: 130,
+	color: "white",
+	font: {
+		fontSize: 20
+	}
+}
+
+"#countdownWrap": {
+	top: "20%",
+	width: 200,
+	height: 200,
+	borderRadius: 100,
+	borderWidth: 5,
+	borderColor: "#0C2C40"
 }
