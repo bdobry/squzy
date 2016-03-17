@@ -1,0 +1,33 @@
+"#pageIndicator": {
+	top: 45,
+	left: 125
+}
+
+".indicator": {
+	width: 10,
+	height: 10,
+	backgroundColor: "#7e6e7a",
+	borderRadius: 5,
+	right: 10
+}
+".subtitle":{
+	top: "55%",
+	font: {fontSize: 12},
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+".right": {
+	right: 15,
+	top: 19,
+	color: "white",
+	font: {
+		fontSize: 10
+	}
+}
+
+".active": {
+	width: 7,
+	height: 7,
+	backgroundColor: "white",
+	borderRadius: 4,
+}
