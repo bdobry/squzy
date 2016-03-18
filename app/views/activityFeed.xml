@@ -1,6 +1,6 @@
 <Alloy>
 	<NavigationWindow id="mainNav" platform="ios">
-        <Window id="main" title="Main Window">
+        <Window id="main" title="Activity Feed">
             <LeftNavButton>
             	<Button id="menuButton" toggle="false"> = </Button>
             </LeftNavButton>

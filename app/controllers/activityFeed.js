@@ -1,7 +1,9 @@
 var menuButton = $.menuButton;
+var navbar = Alloy.createController('navbar').getView();
+navbar.hide();
 
 var a = Ti.UI.createAnimation({
-	left:150,
+	left:125,
     duration:300,
     curve:Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
 });
@@ -17,10 +19,12 @@ menuButton.addEventListener('click', function(e){
     // If the menu is opened
     if (e.source.toggle == false){
         e.source.toggle = true;
+        navbar.opacity = 1;
         main.animate(a);
     } else { 
         e.source.toggle  = false;
         main.animate(z);  
+        navbar.opacity = 0;
     }
 });
 
