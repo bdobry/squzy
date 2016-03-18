@@ -90,6 +90,10 @@
     }
 }
 
+".backBtn": {
+	height: 25
+}
+
 // "#main": {
     // backgroundColor:'#0a2333',
     // barColor:'#0a2333',

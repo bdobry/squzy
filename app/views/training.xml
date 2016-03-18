@@ -2,7 +2,7 @@
 	<NavigationWindow id="mainNav" platform="ios">
         <Window id="main" title="Training Screen">
             <LeftNavButton>
-            	<Button id="menuButton" onClick="goActivity"> back </Button>
+            		<ImageView onClick="goActivity" class="backBtn" image="img/back-03.png" />
             </LeftNavButton>
             
              <ScrollableView>
