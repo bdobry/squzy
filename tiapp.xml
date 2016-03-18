@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.squzy</id>
-    <name>Squzy</name>
+    <id>com.jhg</id>
+    <name>khjg</name>
     <version>1.0</version>
-    <publisher>bdobry</publisher>
+    <publisher>macbook</publisher>
     <url/>
     <description>undefined</description>
-    <copyright>2016 by bdobry</copyright>
+    <copyright>2016 by macbook</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>7c52b2be-3b66-4d4b-9000-8d5ea1710e9e</guid>
+    <guid>1f9c8b19-009a-4ef9-9999-f089c3ec1fc5</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
-        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
         <plist>
             <dict>
                 <key>UISupportedInterfaceOrientations~iphone</key>
@@ -53,30 +52,30 @@
     </modules>
     <deployment-targets>
         <target device="android">true</target>
-        <target device="ipad">true</target>
+        <target device="ipad">false</target>
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
         <target device="windows">false</target>
     </deployment-targets>
-    <sdk-version>5.2.0.GA</sdk-version>
+    <sdk-version>5.1.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">56e7f9a969cce1cd63892115</property>
+    <property name="appc-app-id" type="string">56eb26326dd2c40e026d48a1</property>
     <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-development" type="string">Ce1N0gBSKvJyGjXfK22zR0dFuPZeXxs6</property>
-    <property name="acs-oauth-key-development" type="string">nU8hl0NByG7C57W529mSEPdLNTqe4849</property>
-    <property name="acs-api-key-development" type="string">NBnKwLHdhQm4TN5wfdwULMnmnoCzMJ8e</property>
+    <property name="acs-oauth-secret-development" type="string">zQXa6972m6FyHEDsk6r3CSjFteqof0PP</property>
+    <property name="acs-oauth-key-development" type="string">ZIh45LGpL0lUpERXd52O99I25DUBBx37</property>
+    <property name="acs-api-key-development" type="string">TVCGfZwcmP2ofYcrTB0NEFesvTNRFyQg</property>
     <property name="acs-username-development" type="string">appc_app_user_dev</property>
-    <property name="acs-password-development" type="string">Fw3OnkJ6CEWbgeSkvj</property>
+    <property name="acs-password-development" type="string">2RofxLN9u8yNlpCozZ</property>
     <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-production" type="string">8M8xbtzAfsnOczUBhMzEHMFvfzXgBecx</property>
-    <property name="acs-oauth-key-production" type="string">lbOYaLTLBSaGv0VTx7B86ClXdoxysJHm</property>
-    <property name="acs-api-key-production" type="string">zuCqt0yhdYcIBWG1dpQAj9mRYUGKQZDL</property>
+    <property name="acs-oauth-secret-production" type="string">F8Tobh9SgG0LfaxcXcqCorOQgVER444z</property>
+    <property name="acs-oauth-key-production" type="string">uZOsUwbfL1LClVurFb6Rb1LkipVqb8pE</property>
+    <property name="acs-api-key-production" type="string">nyZIyNBKntyPWS8H012x4FCqQqm8rRIQ</property>
     <property name="acs-username-production" type="string">appc_app_user</property>
-    <property name="acs-password-production" type="string">nQqDaxm7XZlBK6y6Qs</property>
-    <property name="appc-org-id" type="string">100095898</property>
-    <property name="appc-creator-user-id" type="string">ef79e83f-ec36-4c00-ab82-6bd2d41dfea1</property>
+    <property name="acs-password-production" type="string">sPjSid9jC1f48e9DGR</property>
+    <property name="appc-org-id" type="string">100106448</property>
+    <property name="appc-creator-user-id" type="string">06ff672d-26a4-4f7a-8bbe-1b0de0c53203</property>
 </ti:app>
