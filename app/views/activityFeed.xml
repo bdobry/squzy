@@ -7,8 +7,8 @@
             <RightNavButton>
             	<Button onClick="goTraining"> + </Button>
             </RightNavButton>
+            
             <ScrollView layout="vertical">
-
 				<View class="event" layout="horizontal">
 					<ImageView class="eventImg" image="img/avatar.png" />
 					<View class="eventData" layout="vertical">
@@ -48,8 +48,6 @@
 						<Label class="eventResult">eventtest</Label>
 					</View>
 				</View>
-				
-				
 			</ScrollView>
         </Window>
     </NavigationWindow>

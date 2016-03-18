@@ -4,7 +4,7 @@
 }
 
 "#menuWrapper": {
-	backgroundColor: "#0a2333",
+	backgroundColor: "#0a2333"
 }
 
 "TableView": {

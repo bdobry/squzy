@@ -74,7 +74,8 @@
 "#main": {
     backgroundColor:'#0a2333',
     barImage:'img/nav-02.png',
-    opacity: 1,
+    includeOpaqueBars: "false",
+    translucent: "false",
         titleAttributes: {
     	color:'#FFF',
     	font: {

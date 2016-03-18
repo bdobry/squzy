@@ -1,4 +1,24 @@
+".labelSettings": {
+	font: {
+		fontSize: 10
+	},
+	color: "white"
+}
 
-".container" : {
-  
+"TableView": {
+	separatorColor: "white"
+}
+
+"#table": {
+	backgroundColor: "#0a2333"
+}
+
+"TableViewRow": {
+	color: "white",
+	font: {
+		fontSize: 14
+	},
+	top: 20,
+	bottom: 5,
+	height: 45
 }

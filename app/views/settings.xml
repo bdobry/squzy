@@ -1,20 +1,26 @@
 <Alloy>
-    <Window id="win" backgroundColor="white">
-        <TableView id="table">
-            <TableViewSection id="AccountSection" headerTitle="Account">
-                <TableViewRow title="My Account" onClick="goMyAccount"/>
-                <TableViewRow title="Upgrade to Premium" onClick="goPremium"/>
-                <TableViewRow title="Connect with Facebook" onClick="goFacebook"/>
-            </TableViewSection>
-            <TableViewSection id="GeneralSection" headerTitle="General">
-                <TableViewRow title="Units" onClick="goUnits"/>
-                <TableViewRow title="Notifications" onClick="goNotifications"/>
-                <TableViewRow title="Privacy" onClick="goPrivacy"/>
-            </TableViewSection>
-            <TableViewSection id="HelpSection" headerTitle="Help">
-                <TableViewRow title="FAQ" onClick="goFaq"/>
-                <TableViewRow title="Contact Us" onClick="goContact"/>
-            </TableViewSection>
-        </TableView>
-    </Window>
+	<NavigationWindow id="mainNav" platform="ios">
+	    <Window id="main" title="Settings">
+	    	<LeftNavButton>
+            	<Button id="menuButton" onClick="goActivity"> back </Button>
+            </LeftNavButton>
+            
+	        <TableView id="table">
+	            <TableViewSection class="labelSettings" id="AccountSection" headerTitle="Account">
+	                <TableViewRow title="My Account" onClick="goMyAccount"/>
+	                <TableViewRow title="Upgrade to Premium" onClick="goPremium"/>
+	                <TableViewRow title="Connect with Facebook" onClick="goFacebook"/>
+	            </TableViewSection>
+	            <TableViewSection class="labelSettings" id="GeneralSection" headerTitle="General">
+	                <TableViewRow title="Units" onClick="goUnits"/>
+	                <TableViewRow title="Notifications" onClick="goNotifications"/>
+	                <TableViewRow title="Privacy" onClick="goPrivacy"/>
+	            </TableViewSection>
+	            <TableViewSection class="labelSettings" id="HelpSection" headerTitle="Help">
+	                <TableViewRow title="FAQ" onClick="goFaq"/>
+	                <TableViewRow title="Contact Us" onClick="goContact"/>
+	            </TableViewSection>
+	        </TableView>
+	    </Window>
+	</NavigationWindow>
 </Alloy>
