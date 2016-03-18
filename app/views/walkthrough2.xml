@@ -12,7 +12,7 @@
 						<!-- <Label id="passHint">password</Label> -->
 						<TextField id="password"></TextField>
 						<Button id="Btn_login" onClick="goActivity">Login</Button>
-						<Button id="Btn_login" onClick="goActivity">Register</Button>
+						<Button id="Btn_login" onClick="goActivity">Sign Up</Button>
 						<Button id="noAccount" onClick="goActivity">...or proceed without an account</Button>
 					</View>
 				</View>	

@@ -10,44 +10,31 @@
             <ScrollView layout="vertical">
 
 				<View class="event" layout="horizontal">
-					<Label class="eventImg">img</Label>
+					<ImageView class="eventImg" image="img/avatar.png" />
 					<View class="eventData" layout="vertical">
+						<Label class="eventDate" >18/03 - 9:31</Label>
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">~ 10 squeezes</Label>
+					</View>
+				</View>
+				
+				<View class="event" layout="horizontal">
+					<ImageView class="eventImg" image="img/avatar.png" />
+					<View class="eventData" layout="vertical">
+						<Label class="eventDate" >18/03 - 9:31</Label>
 						<Label class="eventNick" >Nickname</Label>
 						<Label class="eventResult">eventtest</Label>
 					</View>
 				</View>
 				
 				<View class="event" layout="horizontal">
-					<Label class="eventImg">img</Label>
+					<ImageView class="eventImg" image="img/avatar.png" />
 					<View class="eventData" layout="vertical">
+						<Label class="eventDate" >18/03 - 9:31</Label>
 						<Label class="eventNick" >Nickname</Label>
 						<Label class="eventResult">eventtest</Label>
 					</View>
 				</View>
-				
-				<View class="event" layout="horizontal">
-					<Label class="eventImg">img</Label>
-					<View class="eventData" layout="vertical">
-						<Label class="eventNick" >Nickname</Label>
-						<Label class="eventResult">eventtest</Label>
-					</View>
-				</View>
-				
-				<View class="event" layout="horizontal">
-					<Label class="eventImg">img</Label>
-					<View class="eventData" layout="vertical">
-						<Label class="eventNick" >Nickname</Label>
-						<Label class="eventResult">eventtest</Label>
-					</View>
-				</View>
-				
-				<View class="event" layout="horizontal">
-					<Label class="eventImg">img</Label>
-					<View class="eventData" layout="vertical">
-						<Label class="eventNick" >Nickname</Label>
-						<Label class="eventResult">eventtest</Label>
-					</View>
-				</View>	
 			</ScrollView>
         </Window>
     </NavigationWindow>

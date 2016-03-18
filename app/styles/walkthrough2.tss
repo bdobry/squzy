@@ -1,7 +1,8 @@
 "#username":
 {
 	bottom: 15,
-	hintText: "username"
+	hintText: "username",
+	textAlign: "center"
 }
 
 "#password":
@@ -9,12 +10,12 @@
 	passwordMask: true,
 	bottom: 15,
 	hintText: "password",
-	
-
+	textAlign: "center"
 }
 
 "#noAccount": {
 	width: "100%",
+	bottom: 0,
 	top: 75,
 	height: 35,
 	color: "#0a2333",
