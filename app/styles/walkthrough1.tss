@@ -31,3 +31,11 @@
 	backgroundColor: "white",
 	borderRadius: 4,
 }
+
+"Label": {
+	top: "35%",
+	font: {
+		fontSize: 14,
+		color: "white",
+	}
+}

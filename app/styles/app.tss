@@ -22,14 +22,6 @@
 	color: "#000"
 }
 
-"Label": {
-	top: "35%",
-	font: {
-		fontSize: 14,
-		color: "white",
-	}
-}
-
 ".menuWindow": {
 	top:0,
     left:0,
@@ -44,6 +36,20 @@
 	}
 }
 
+".quote": {
+	left: "10%", right: "10%", top: "8%",
+	font: {
+		fontSize: 28,
+		fontWeight: "Hairline"
+	}
+}
+
+".subquote": {
+	left: "10%", right: "10%", top: "5%",
+	font: {
+		fontSize: 12
+	}
+}
 
 "#one": {
 	top:"25%",

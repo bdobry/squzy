@@ -10,11 +10,11 @@
 			<View  class="right"><Button class="right">skip</Button></View>
 			<View id="walkthru">				
 				<View id="one">
-					<Label class="white">Nice welcome text</Label>
-					<Label class="white subtitle">subtitle</Label>
+					<Label class="white">Squzy trains you</Label>
+					<Label class="white subtitle">We </Label>
 				</View>
 				<View id="two">
-					<Label class="white">Two</Label>
+					<Label class="white">We will help you motivate yourself</Label>
 					<Label class="white subtitle">subtitle</Label>
 				</View>
 				<View id="three">

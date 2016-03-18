@@ -1,3 +1,15 @@
+
+$.first.opacity = 0;
+$.first.addEventListener('open', function(){
+	var a = Ti.UI.createAnimation({
+		opacity: 1,
+	    duration:300,
+	    curve:Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
+	   }); 
+	$.first.animate(a);
+});
+
+
 var win1 = $.first;
 var win2 = Alloy.createController('walkthrough2').getView();
 var one = $.one;
@@ -18,8 +30,8 @@ $.addClass($.uno, 'active');
 
 win1.addEventListener('swipe', function(e){
 	var outL = Ti.UI.createAnimation({
-		left:-500,
-	    duration:300,
+		left:-700,
+	    duration:400,
 	    curve:Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
 	   }); 
 	var inT = Ti.UI.createAnimation({

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="landing" onClick="GoWalkthrough" layout="vertical">
+		<Label class="white quote">Not knowing you can’t do something, is sometimes all it takes to do it.</Label>
+		<Label class="subquote" color="white">Ally Carter</Label>
+	</Window>
+</Alloy>

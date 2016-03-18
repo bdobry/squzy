@@ -3,8 +3,9 @@
 		<View id="menuWrapper">
 		    <TableView id="menuTable">
 		            <TableViewRow title="Training" onClick="goTraining" />
-		            <TableViewRow title="Settings" onClick="goSettings" />
+		            <TableViewRow title="Statistics"/>
 		            <TableViewRow title="About" onClick="goAbout" />           
+		            <TableViewRow title="Settings" onClick="goSettings" />
 	        </TableView>
         </View>
     </Window>

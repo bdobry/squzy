@@ -1,5 +1,5 @@
 <Alloy>
 	<Window class="landing">
-		<ImageView onClick="GoWalkthrough" id="logo" image="img/logo.png" />
+		<ImageView id="logo" image="img/logo.png" />
 	</Window>
 </Alloy>
