@@ -4,7 +4,6 @@ function goActivity(){
 	activity.open();
 	navbar.open();
 }
- 
 
 var a = Ti.UI.createAnimation({ 
 	left: "100%",
@@ -22,50 +21,65 @@ var x = Ti.UI.createAnimation({
 });
 
 var complete = "false";
-var countdown = 10;
+var countdown = 4;
 var clickable = "true";
 var broken = "false";
-var buttonText = $.pusher.text;
-
+var buttonText = $.pusher;
+var duration = 2000;
 $.countdown.text = countdown;
 
-$.pusher.addEventListener('touchstart', function(e){
-    if (clickable == "true") {
-	    $.timer.animate(a);
-	    
-	    setTimeout(function(){
-			 if (broken == "false") {
-				countdown -=1;
-				clickable = "false";
-				rest();
-				// alert('Countdown: '+ countdown);
-				$.countdown.text = countdown;
-			} else {
-				broken = "false";
-				complete = "false";
-				clickable = "true";
-			}
-		},2000);
-	} else {
-		setTimeout(function(){
-			clickable = "true"; 
-		},500);
-	}
+var w = 0;
+var t;
 
+function progressBar(){ 
+	t = setInterval( function() { 
+		w++; 
+		if(w >= 150){ 
+			clearInterval(t); 
+			// alert("Simulation is complete"); 
+			} 
+		$.timer.left = w; 
+		}, 13 ); 
+}
+
+$.pusher.addEventListener('touchstart', function(e){ 
+    if (clickable == "true") {
+	    progressBar();
+		duration = 2000;
+		
+		if (broken == "false") {
+			setTimeout(function() {
+			 if (broken == "false") {
+				countdown -=1;				
+				rest();
+				$.countdown.text = countdown;
+				clearInterval(t);
+				w = 0;
+				// alert('Countdown: '+ countdown);
+			} else {
+			    broken = "false";
+			}
+		},duration);
+		} else {
+			broken = "false";
+		}
+	}
 }); 
 
 $.pusher.addEventListener('touchend', function(e){
     if (clickable == "true") {
 	    broken = "true";
-	    clickable = "false";
-	    $.timer.animate(z);    	
+	    duration = 0;
+	    clearInterval(t); 
+	    w = 0;
+	    $.timer.left = 0;
     }
 }); 
 
 function rest() {
 	$.timer.animate(x);
 	clickable = "false";
-	buttonText = "relax now...";
+	buttonText.text = "relax now...";
 	
 	setTimeout(function(){
 		clickable = "true"; 

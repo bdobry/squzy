@@ -51,7 +51,7 @@
 }
 
 "#countdownWrap": {
-	top: "18%",
+	top: "12%",
 	width: 160,
 	height: 160,
 	borderRadius: 80,
