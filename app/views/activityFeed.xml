@@ -35,6 +35,21 @@
 						<Label class="eventResult">eventtest</Label>
 					</View>
 				</View>
+				
+				<View class="achievement" layout="horizontal">
+					<ImageView class="achievementImg" image="img/achievement.png" />
+				</View>
+				
+				<View class="event" layout="horizontal">
+					<ImageView class="eventImg" image="img/avatar.png" />
+					<View class="eventData" layout="vertical">
+						<Label class="eventDate" >18/03 - 9:31</Label>
+						<Label class="eventNick" >Nickname</Label>
+						<Label class="eventResult">eventtest</Label>
+					</View>
+				</View>
+				
+				
 			</ScrollView>
         </Window>
     </NavigationWindow>

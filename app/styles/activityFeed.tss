@@ -5,6 +5,13 @@
 	top: 5, right:10
 }
 
+".achievement": {
+  	height: 120,
+	width: Ti.UI.SIZE,
+	// backgroundColor: "orange",
+	top: 10
+}
+
 ".wrapper": {
   	height: Ti.UI.SIZE,
   	width: Ti.UI.SIZE
