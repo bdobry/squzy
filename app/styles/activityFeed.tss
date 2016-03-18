@@ -1,8 +1,15 @@
 ".event": {
-  	height: 100,
+  	height: 80,
 	width: Ti.UI.SIZE,
-	backgroundColor: "orange",
-	top: 10, right:10, bottom:0, left: 10  
+	// backgroundColor: "orange",
+	top: 5, right:10
+}
+
+".achievement": {
+  	height: 120,
+	width: Ti.UI.SIZE,
+	// backgroundColor: "orange",
+	top: 10
 }
 
 ".wrapper": {
@@ -11,29 +18,52 @@
 }
 
 ".eventImg": {
-	height: 100,
-	width: 100,
-	backgroundColor: "white",
-	top: 10, right:10, bottom:10, left: 10
+	height: 70,
+	width: 70,
+	borderRadius: 10,
+	// backgroundColor: "white",
+	top: 5, right:10, left: 10
 }
 
 ".eventData": {
 	top:0,
 	height: 100,
 	width: "auto",
-	backgroundColor: "red"
+	// backgroundColor: "red"
+}
+
+".eventDate": {
+	top:5,
+	left: 0,
+	width: "auto",
+	color: "rgba(255,255,255,0.5)",
+	font: {
+		fontSize: 11
+	}
 }
 
 ".eventNick": {
 	top:0,
-	height: 30,
+	left: 0,
 	width: "auto",
-	backgroundColor: "yellow"
+	// backgroundColor: "yellow",
+	color: "white",
+	font: {
+		fontSize: 11
+	}
 }
 
 ".eventResult": {
-	top:0,
+	top:10,
 	height: 30,
-	width: "auto",
-	backgroundColor: "purple"
+	width: "100%",
+	// backgroundColor: "purple",
+	borderWidth: 1,
+	borderColor: "white",
+	borderRadius: 5,
+	textAlign: "center",
+	color: "white",
+	font: {
+		fontSize: 11
+	}
 }

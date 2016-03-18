@@ -1,42 +1,41 @@
 "#username":
 {
-	width: "50%",
-	bottom: 10,
-	height: 25,
-	hintText : "Username",
-	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
-	font: {
-		fontSize: 13
-	}
+	bottom: 15,
+	hintText: "username",
+	textAlign: "center"
 }
 
 "#password":
-{
-	width: "50%",	
-	bottom: 10,
-	hintText: "Password",
+{	
 	passwordMask: true,
-	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+	bottom: 15,
+	hintText: "password",
+	textAlign: "center"
 }
 
 "#noAccount": {
 	width: "100%",
-	bottom: 15,
+	bottom: 0,
+	top: 75,
 	height: 35,
 	color: "#0a2333",
+	backgroundColor: "white",
 	font: {
 		fontSize: 13
-	}
+	},
 }
 
 "#Btn_login":
 {
-	backgroundColor: "#0a2333",
-	width:"45%",
-	height: 25,
+	borderColor: 'rgba(255,255,255,0.2)',
+	borderWidth: 1,
+	width:"75%",
+	height: 35,
 	bottom: 15,
-	borderRadius: 10,
-	color: "white"
+	color: 'rgba(255,255,255,0.6)',
+	font: {
+		fontSize: 13
+	}
 }
 
 "#heroImg": {
@@ -44,10 +43,25 @@
 }
 
 "#logins": {
-	top: "60%",
-	backgroundColor: "white"
+	top: "26%"
 }
 
 ".insideLogins": {
 	top: 30
 }
+
+"TextField": {
+	// opacity: 0.1,
+	width: "75%",
+	height: 35,
+	backgroundColor: 'rgba(255,255,255,0.2)',
+	borderRadius: 2,
+	color: "white",
+	font: {
+		fontSize: 13
+	}
+}
+
+// "Label": {
+	// top: 7
+// }

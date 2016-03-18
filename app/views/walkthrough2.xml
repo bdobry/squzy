@@ -7,10 +7,14 @@
 				</View>
 				<View id="logins">
 					<View layout="vertical" class="insideLogins">
-						<Button id="Btn_login" onClick="goActivity">Register</Button>
+						<!-- <Label id="usHint">username</Label> -->
+						<TextField id="username"></TextField>
+						<!-- <Label id="passHint">password</Label> -->
+						<TextField id="password"></TextField>
 						<Button id="Btn_login" onClick="goActivity">Login</Button>
+						<Button id="Btn_login" onClick="goActivity">Sign Up</Button>
+						<Button id="noAccount" onClick="goActivity">...or proceed without an account</Button>
 					</View>
-					<View><Button id="noAccount" onClick="goActivity">...or proceed without an account</Button></View>
 				</View>	
 			</View>
 		</ScrollView>
