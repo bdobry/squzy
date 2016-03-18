@@ -1,9 +1,11 @@
 <Alloy>            
-	<Window class="menuWindow">
-	    <TableView id="menuTable">
-            <TableViewRow title="Training" onClick="goTraining" />
-            <TableViewRow title="Settings" onClick="goSettings" />
-            <TableViewRow title="About" onClick="goAbout" />           
-        </TableView>
+	<Window id="menuWin" class="menuWindow">
+		<View id="menuWrapper">
+		    <TableView id="menuTable">
+		            <TableViewRow title="Training" onClick="goTraining" />
+		            <TableViewRow title="Settings" onClick="goSettings" />
+		            <TableViewRow title="About" onClick="goAbout" />           
+	        </TableView>
+        </View>
     </Window>
 </Alloy>

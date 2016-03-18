@@ -1,0 +1,22 @@
+"#menuTable": {
+	top:"40%",
+	backgroundColor: "#0a2333"
+}
+
+"#menuWrapper": {
+	backgroundColor: "#0a2333",
+}
+
+"TableView": {
+	separatorColor: "#0a2333"
+}
+
+"TableViewRow": {
+	color: "white",
+	font: {
+		fontSize: 14
+	},
+	top: 20,
+	bottom: 5,
+	height: 30
+}

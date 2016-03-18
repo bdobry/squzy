@@ -44,10 +44,6 @@
 	}
 }
 
-"#main": {
-    backgroundColor:'#0a2333',
-    barColor:'#0a2333'
-}
 
 "#one": {
 	top:"25%",
@@ -74,6 +70,30 @@
 	height: Ti.UI.SIZE,
 	top: "49%"
 }
+
+"#main": {
+    backgroundColor:'#0a2333',
+    barImage:'img/nav-02.png',
+    opacity: 1,
+        titleAttributes: {
+    	color:'#FFF',
+    	font: {
+    		fontSize: 12
+    	}
+    }
+}
+
+// "#main": {
+    // backgroundColor:'#0a2333',
+    // barColor:'#0a2333',
+    // titleAttributes: {
+    	// color:'#FFF',
+    	// font: {
+    		// fontSize: 12
+    	// }
+    // }
+// }
+
 // "#main": {
 	// barColor: {
         // type: 'linear',
